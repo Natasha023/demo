@@ -1,6 +1,12 @@
 # Weather Widget
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). This project provides functionality to read the end user's current location using navigator.geolocation and retrieves the current wether condition from the [Open Weather Map API](https://openweathermap.org/current). Display the city name, temperature and wind speed in the widget. 
 
+## Setup
+1. Create a demo project by 
+```sh
+npx create-react-app demo
+```
+
 ## How to build
 1. Download source code
 ```sh 
@@ -18,31 +24,16 @@ npm install
 ```sh
 npm start
 ```
-## How to deploy
-1. Add homepage into package.json
-```
-"homepage": "https://natasha023.github.io/demo" 
-```
-2. Add these lines of code to package.json script part: 
-```diff
-"script":{
-+ "predeploy": "npm run build",
-+ "deploy": "gh-pages -d build" 
-```
-3. Install gh-pages
-```sh
-npm install --save-dev gh-pages
-```
-4. Deploy website 
-```sh
-npm run deploy
-```
 
 ## Technical choices
 1. Use create-react-app to create the project
 2. Use axios to interact with back end
-3. Use OpenWeatherMap lib to retrieve current weather data 
+3. Use OpenWeatherMap lib to retrieve current weather data
+
+## Solution
+1. Has two components. App component renders the whole page. And Weather component renders the weather panel on right.
+2. Draw sun and wind icon by css.
 
 ## TODOS
-1. Write unit test and E2E test cases
+1. Write unit test cases
 
