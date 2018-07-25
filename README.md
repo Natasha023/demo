@@ -26,12 +26,12 @@ npm start
 ```
 
 ## Technical choices
-1. Use create-react-app to create the project
-2. Use axios to interact with back end
-3. Use OpenWeatherMap lib to retrieve current weather data
+1. Use create-react-app to create the project.
+2. Use axios to send api calls.
+3. Use OpenWeatherMap lib to retrieve current weather data.
 
 ## Solution
-1. Has two components. App component renders the whole page. And Weather component renders the weather panel on right.
+1. Has two components. App component renders the whole page. Weather component renders the weather panel on right.
 2. Draw sun and wind icon by css.
 
 ## TODOS
