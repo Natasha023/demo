@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to build
 1. Download source code
 ```sh 
-git clone 
+git clone https://github.com/Natasha023/demo
 ```
 2. Go to the folder: 
 ```sh
@@ -21,7 +21,7 @@ npm start
 ## How to deploy
 1. Add homepage into package.json
 ```
-"homepage": "https://natasha023.github.io/send-email/build" 
+"homepage": "https://natasha023.github.io/demo" 
 ```
 2. Add these lines of code to package.json script part: 
 ```diff
@@ -42,9 +42,6 @@ npm run deploy
 1. Use create-react-app to create the project
 2. Use axios to interact with back end
 3. Use OpenWeatherMap lib to retrieve current weather data 
-
-## Functionalities Introduction
-
 
 ## TODOS
 1. Write unit test and E2E test cases
